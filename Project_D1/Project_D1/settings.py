@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware',
-    #'django.contrib.fpages.middleware.FlatpageFallbackMiddleware',
+    #'django.contrib.fpages.middleware.FpagesFallbackMiddleware',
 ]
 
 ROOT_URLCONF = 'Project_D1.urls'
